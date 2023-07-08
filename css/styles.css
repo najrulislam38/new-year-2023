@@ -62,6 +62,7 @@ body{
     border: 1px solid #F15B22;
     border-radius: 5px;
     transition: 0.3;
+    cursor: pointer;
 }
 
 .orange-btn:hover{
@@ -171,7 +172,7 @@ body{
     margin-bottom: 24px;
 }
 
-.mindset-content button{
+.white-btn{
     padding: 20px 35px;
     font-size: 20px;
     color: #F15B22;
@@ -181,16 +182,87 @@ body{
 
 }
 
-.mindset-content button:hover{
+.white-btn:hover{
     background-color: #F15B22;
     border: 1px solid #fff;
 }
 
-.mindset-content button:hover a{
+.white-btn:hover a{
     color: #fff;
 }
 
-.mindset-content button a{
+.white-btn a{
     color: #F15B22;
     text-decoration: none;
+}
+
+/* footer area style */
+#footer{
+    width: 100vw;
+    background-color: #000000;
+    
+}
+
+.inner-footer{
+    display: flex;
+    gap: 330px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px 0px;
+}
+
+.footer-columns{
+    width: 50%;
+}
+
+.footer-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #fff;
+}
+
+.footer-description{
+    width: 485px;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.social-link img{
+    margin-right: 10px;
+}
+
+.footer-sub-title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.footer-columns input{
+    padding: 20px;
+    background-color: #000000;
+    border: 1px solid #ffff;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-columns input[type="submit"]{
+    background-color: #F15B22;
+    font-size: 18px;
+    border: 1px solid #F15B22;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.footer-columns input[type="submit"]:hover{
+    background-color: #ffffff;
+    font-size: 18px;
+    color: #F15B22;
+    border: 1px solid #F15B22;
 }
